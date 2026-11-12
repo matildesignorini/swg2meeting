@@ -213,6 +213,11 @@
       font-size: 16px; color: var(--muted);
     }
     .prog-break .prog-time { color: var(--muted); }
+    .prog-break.is-event {
+      background: var(--surface); border: 1px solid var(--border);
+      color: var(--deep); font-weight: 700; padding: 14px 16px;
+    }
+    .prog-break.is-event .prog-time { color: var(--deep); }
     .prog-talk {
       position: relative;
       display: grid; grid-template-columns: 120px 1fr; gap: 16px;
@@ -705,11 +710,11 @@
       <article class="prog-talk">
         <span class="prog-time">16:50&ndash;17:15</span>
         <div class="prog-body">
-          <div class="prog-who"><span class="prog-speaker">Alaa Salah Afifi</span> <span class="prog-inst">Kepler Space University (USA)</span></div>
-          <div class="prog-title">Time-Domain Signatures and Cyclic Feedback of Supermassive Black Holes: Observations, Modeling and the EBBY/FLOW Framework</div>
+          <div class="prog-who"><span class="prog-speaker">Guido Risaliti</span> <span class="prog-inst">University of Florence, Italy</span></div>
+          <div class="prog-title">Quasars as Standard Candles with NewAthena</div>
           <details class="prog-abs">
             <summary>Abstract</summary>
-            <div class="prog-abs-text"><p>Supermassive black holes (SMBHs) show very complicated changes over time due to variations in accretion, effects of relativity, and the behavior of plasma in magnetic fields. Multi-messenger astrophysics has now allowed us to explore such transient changes, which have been connected with features like quasi-periodic oscillations (QPOs), tidal disruption events (TDEs), and bursts of jet activity, thanks to instruments like the Event Horizon Telescope, JWST, TESS, and future projects such as ATHENA. We describe in this chapter the EBBY/FLOW framework, which is essentially a physically inspired cyclic model that represents SMBH evolution through phases of energy storage (EBBY) alternating with energy release (FLOW). EBBY/FLOW synthesizes both the observational facts and the theoretical models of accretion disks, non-linear resonance, and magnetohydrodynamic (MHD) transport phenomena. These differential equations, which represent disk mass changes, resonant vibrations, and feedback through jets plus transient energy input, are used to unfold the model. Besides determining the scaling laws that relate the variability periods with black hole mass, we also put forward some observational signals that can be checked by the present time-domain surveys and upcoming ones. The EBBY/FLOW model not only offers a comprehensive understanding of the SMBH variability but also lays down a foundation for the integration of accretion physics with the major feedback mechanisms at large scales.</p></div>
+            <div class="prog-abs-text"><p>The non-linear relation between X-ray and UV luminosity offers a powerful tool both to probe the disk–corona connection in quasars and to derive their distances, thereby turning quasars into high-redshift standard candles. Over the past decade, studies with XMM-Newton and Chandra have demonstrated that the main bottleneck lies on the X-ray side: the absence of a wide-field X-ray survey with depth comparable to the SDSS (for a typical quasar SED) has limited our ability to validate this method and to construct a quasar Hubble diagram comparable to that of supernovae. These limitations will be overcome with NewAthena. In its first three years of regular operations, NewAthena will deliver tens of thousands of serendipitous, high-quality X-ray spectra of optically selected quasars. This unprecedented dataset will enable precise measurements of cosmic expansion in the crucial redshift range z = 3–6, which remains poorly constrained by other major cosmological probes.</p></div>
           </details>
         </div>
       </article>
@@ -727,11 +732,11 @@
       <article class="prog-talk">
         <span class="prog-time">17:40&ndash;18:05</span>
         <div class="prog-body">
-          <div class="prog-who"><span class="prog-speaker">Guido Risaliti</span> <span class="prog-inst">University of Florence, Italy</span></div>
-          <div class="prog-title">Quasars as Standard Candles with NewAthena</div>
+          <div class="prog-who"><span class="prog-speaker">Alaa Salah Afifi</span> <span class="prog-inst">Kepler Space University (USA)</span></div>
+          <div class="prog-title">Time-Domain Signatures and Cyclic Feedback of Supermassive Black Holes: Observations, Modeling and the EBBY/FLOW Framework</div>
           <details class="prog-abs">
             <summary>Abstract</summary>
-            <div class="prog-abs-text"><p>The non-linear relation between X-ray and UV luminosity offers a powerful tool both to probe the disk–corona connection in quasars and to derive their distances, thereby turning quasars into high-redshift standard candles. Over the past decade, studies with XMM-Newton and Chandra have demonstrated that the main bottleneck lies on the X-ray side: the absence of a wide-field X-ray survey with depth comparable to the SDSS (for a typical quasar SED) has limited our ability to validate this method and to construct a quasar Hubble diagram comparable to that of supernovae. These limitations will be overcome with NewAthena. In its first three years of regular operations, NewAthena will deliver tens of thousands of serendipitous, high-quality X-ray spectra of optically selected quasars. This unprecedented dataset will enable precise measurements of cosmic expansion in the crucial redshift range z = 3–6, which remains poorly constrained by other major cosmological probes.</p></div>
+            <div class="prog-abs-text"><p>Supermassive black holes (SMBHs) show very complicated changes over time due to variations in accretion, effects of relativity, and the behavior of plasma in magnetic fields. Multi-messenger astrophysics has now allowed us to explore such transient changes, which have been connected with features like quasi-periodic oscillations (QPOs), tidal disruption events (TDEs), and bursts of jet activity, thanks to instruments like the Event Horizon Telescope, JWST, TESS, and future projects such as ATHENA. We describe in this chapter the EBBY/FLOW framework, which is essentially a physically inspired cyclic model that represents SMBH evolution through phases of energy storage (EBBY) alternating with energy release (FLOW). EBBY/FLOW synthesizes both the observational facts and the theoretical models of accretion disks, non-linear resonance, and magnetohydrodynamic (MHD) transport phenomena. These differential equations, which represent disk mass changes, resonant vibrations, and feedback through jets plus transient energy input, are used to unfold the model. Besides determining the scaling laws that relate the variability periods with black hole mass, we also put forward some observational signals that can be checked by the present time-domain surveys and upcoming ones. The EBBY/FLOW model not only offers a comprehensive understanding of the SMBH variability but also lays down a foundation for the integration of accretion physics with the major feedback mechanisms at large scales.</p></div>
           </details>
         </div>
       </article>
@@ -802,18 +807,16 @@
         <span class="prog-time">12:05&ndash;12:30</span>
         <div class="prog-body">
           <div class="prog-who"><span class="prog-speaker">TBC</span></div>
-          <div class="prog-title">Reserved for an additional talk</div>
         </div>
       </article>
       <article class="prog-talk is-tbd">
         <span class="prog-time">12:30&ndash;12:55</span>
         <div class="prog-body">
           <div class="prog-who"><span class="prog-speaker">TBC</span></div>
-          <div class="prog-title">Reserved for an additional talk</div>
         </div>
       </article>
       <div class="prog-break"><span class="prog-time">12:55</span><span>Lunch</span></div>
-      <div class="prog-break"><span class="prog-time"></span><span>Visit at ESTEC</span></div>
+      <div class="prog-break is-event"><span class="prog-time"></span><span>Visit at ESTEC</span></div>
     </div>
     <div class="prog-day" data-day="Thu" role="tabpanel">
       <h3 class="prog-day-title">Thursday 28 January</h3>
@@ -938,7 +941,7 @@
         </div>
       </article>
       <div class="prog-break"><span class="prog-time">15:55&ndash;16:25</span><span>Coffee break</span></div>
-      <div class="prog-break"><span class="prog-time">19:00</span><span>Conference dinner!</span></div>
+      <div class="prog-break is-event"><span class="prog-time">19:00</span><span>Conference dinner!</span></div>
     </div>
     <div class="prog-day" data-day="Fri" role="tabpanel">
       <h3 class="prog-day-title">Friday 29 January</h3>
@@ -1012,6 +1015,7 @@
           <div class="prog-title">TBD</div>
         </div>
       </article>
+      <div class="prog-break is-event"><span class="prog-time"></span><span>Closing remarks</span></div>
       <div class="prog-break"><span class="prog-time">12:55</span><span>Lunch</span></div>
     </div>
     <!-- PROGRAM:END -->
